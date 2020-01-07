@@ -1,4 +1,4 @@
-1, food, Bread,100, 1
-2, cigarets, Kent 8, 1000, 21
-3, alcool, Ursus 330 ml, 25, 3.21
-4, food, Snickers,30,1.25
+1;Food;Bread;100;1
+2;Cigarets;Kent 8;1000;21
+3;Alcool;Ursus 330 ml;25;3.21
+4;Food;Snickers,30,1.25

@@ -2,7 +2,10 @@
 
 
 def read_file(file_name):
-    pass
+    with open(file_name, "r") as file:
+        lines = file.readlines()
+    table = [element.replace("\n", "").split(";") for element in lines]
+    return table
 
 # remove item of list
 
@@ -27,3 +30,6 @@ def write():
 
 def sum():
     pass
+
+
+print(read_file("/home/stefan/Codecool/Python/6th_TW_week/Pet-project/stock.csv"))
