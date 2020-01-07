@@ -1,10 +1,14 @@
 # read file, return a list
+ID, CATEGORY, PRODUCT, QUANTITY, PRICE = range(5)
 
 
 def read_file(file_name):
     with open(file_name, "r") as file:
         lines = file.readlines()
     table = [element.replace("\n", "").split(";") for element in lines]
+    for element in table:
+        element[QUANTITY] = int(element[QUANTITY])
+        element[PRICE] = float(element[PRICE])
     return table
 
 # remove item of list
@@ -32,4 +36,4 @@ def sum():
     pass
 
 
-print(read_file("/home/stefan/Codecool/Python/6th_TW_week/Pet-project/stock.csv"))
+print(read_file("stock.csv"))
