@@ -1,13 +1,25 @@
 import function
 
-# show list
+# show list of items
 
 
-def show_table(list):
+def print_table(list):
     pass
 
 # get input
 
 
-def get_input(text):
-    return input(text)
+def get_input(text, list_labels):
+    pass
+
+
+# print error message
+
+def print_error_message(message):
+    pass
+
+# show menu options
+
+
+def print_menu(title, list_options, exit_message):
+    pass
