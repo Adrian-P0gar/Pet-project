@@ -20,8 +20,14 @@ def remove(item):
 # add to bascket
 
 
-def add_basket(item):
-    pass
+def add_basket(item, quantity, list_to_add, list_from_add):
+
+    for i in list_from_add:
+        if item in i[ID]:
+            list_to_add.append(i)
+            list_to_add[-1][QUANTITY] = int(quantity)
+    return list_to_add
+
 
 # write table in CSV
 
@@ -37,3 +43,7 @@ def sum():
 
 
 print(read_file("stock.csv"))
+x = read_file("stock.csv")
+y = [['2', 'Cigarets', 'Kent 8', 1000, 21.0]]
+add_basket("3", 5, y, x)
+print(y)
