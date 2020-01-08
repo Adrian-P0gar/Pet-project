@@ -3,7 +3,7 @@ ID, CATEGORY, PRODUCT, QUANTITY, PRICE = range(5)
 inventory_labels = ["ID", "Category", "Product", "Quantity", "Price"]
 inventory = function.read_file("stock.csv")
 h_char = "-"
-v_char = "     "
+v_char = " " * 5
 
 
 def calculate_total(list_of_items):
@@ -34,7 +34,6 @@ def print_list(list_of_items, length=max_column_lengths):
           )
 
 
-# show list of items
 def print_table(list, menu):
     h_line = h_char * longest_row
     # header
@@ -53,9 +52,6 @@ def print_table(list, menu):
         print(h_line)
 
 
-print_table(inventory, "inventory")
-
-
 # get input
 def get_input(text, list_labels):
     pass
@@ -64,6 +60,7 @@ def get_input(text, list_labels):
 # print error message
 def print_error_message(message):
     pass
+
 
 # show menu options
 def print_menu(title, list_options, exit_message):
