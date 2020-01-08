@@ -21,5 +21,16 @@ def print_error_message(message):
 # show menu options
 
 
-def print_menu(title, list_options, exit_message):
-    pass
+list_options_for_main_menu = [
+    "Press A to add to basket", "Press P to pay", "Press X to exit"]
+
+
+def print_menu(list_options, title):
+    print("\n", title.center(
+        max([len(str(x)) for x in list_options])), "\n")
+
+    for option in list_options:
+        print(option)
+
+
+print_menu(list_options_for_main_menu, "DUTY FREE")
