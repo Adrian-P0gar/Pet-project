@@ -7,8 +7,8 @@ def read_file(file_name):
         lines = file.readlines()
     table = [element.replace("\n", "").split(";") for element in lines]
     for element in table:
-        element[QUANTITY] = int(element[QUANTITY])
-        element[PRICE] = float(element[PRICE])
+        element[QUANTITY] = f"{int(element[QUANTITY]):,}"
+        element[PRICE] = f"{float(element[PRICE]):,.2f} Lei"
     return table
 
 # remove item of list
@@ -42,8 +42,8 @@ def sum():
     pass
 
 
-print(read_file("stock.csv"))
-x = read_file("stock.csv")
-y = [['2', 'Cigarets', 'Kent 8', 1000, 21.0]]
-add_basket("3", 5, y, x)
-print(y)
+# print(read_file("stock.csv"))
+# x = read_file("stock.csv")
+# y = [['2', 'Cigarets', 'Kent 8', 1000, 21.0]]
+# add_basket("3", 5, y, x)
+# print(y)
