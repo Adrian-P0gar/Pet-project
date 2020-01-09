@@ -9,11 +9,19 @@ def print_table(list):
 # get input
 
 
-def get_input(text, list_labels):
-    pass
+def get_input(list_labels, title):
+    inputs = []
+    print(title)
+    for i in range(0, len(list_labels)):
+        user_input = input(f"\t{list_labels[i].title()}")
+        inputs.append(user_input)
+    return inputs
 
 
-# print error message
+# femei = ['maria', "ion", 'george']
+# x = get_input(femei, "Boom Kiss!")
+# print(x)
+
 
 def print_error_message(message):
     pass
@@ -33,4 +41,4 @@ def print_menu(list_options, title):
         print(option)
 
 
-print_menu(list_options_for_main_menu, "DUTY FREE")
+# print_menu(list_options_for_main_menu, "DUTY FREE")

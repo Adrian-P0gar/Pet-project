@@ -42,10 +42,17 @@ def remove_from_bascket(item, bascket):
 def add_basket(item, quantity, list_to_add, list_from_add):
 
     for i in list_from_add:
+        if item not in i[ID]:
+            raise ValueError
+            break
         if item in i[ID]:
-            list_to_add.append(i)
-            list_to_add[-1][QUANTITY] = int(quantity)
-    return list_to_add
+            if int(quantity) > i[QUANTITY]:
+                raise ValueError
+                break
+            else:
+                list_to_add.append(i)
+                list_to_add[-1][QUANTITY] = int(quantity)
+                return list_to_add
 
 
 # write table in CSV
@@ -66,14 +73,14 @@ def suma(basket):
     return total_sum
 
 
-x = read_file("stock.csv")
-print(x)
-basket = [['2', 'Cigarets', 'Kent 8', 1, 21.0], ['3', 'Alcool',
-                                                 'Ursus 330 ml', 2, 3], ['4', 'Food', 'Snickers', 1, 1.25]]
+# x = read_file("stock.csv")
+# print(x)
+# basket = [['2', 'Cigarets', 'Kent 8', 1, 21.0], ['3', 'Alcool',
+#                                                  'Ursus 330 ml', 2, 3], ['4', 'Food', 'Snickers', 1, 1.25]]
 
-write(basket)
-x = read_file("stock.csv")
-print(x)
+# write(basket)
+# x = read_file("stock.csv")
+# print(x)
 
 
 # y = [['2', 'Cigarets', 'Kent 8', 1, 21.0], ['3', 'Alcool',
