@@ -128,8 +128,7 @@ def validate_card_details(validate_data):
 
 
 def update_stock(basket):
-    intermediary_stock = read_file(
-        "/home/pogar/Python module/SI 6/Pet-project/stock.csv")
+    intermediary_stock = read_file("stock.csv")
     for i in basket:
         for x in intermediary_stock:
             if i[ID] == x[ID]:
