@@ -1,25 +1,55 @@
-1;Food;Bread;100;1.5
-2;Cigarets;Kent 8;100;19.50
-3;Alcool;Ursus 330 ml;100;3.21
-4;Food;Snickers;100;1.25
-5;Food;7 Days Chocolate;100;2.30
-6;Cigarets;Marlboro Red;100;19.50
-7;Alcool;Staropramen 500 ml;100;3.30
-8;Food;Chips Lays;100;4.30
-9;Food;Pop Corn Chio;100;4.30
-10;Cigarets;Dunhil Blue;100;19.50
-11;Alcool;White Wine Babanu 2 l;100;12.50
-12;Food;Sandwich Ham&Cheese;100;6.00
-13;Food;7 Days Vanila;100;2.30
-14;Cigarets;Dunhil Black;100;19.50
-15;Alcool;Timisoreana 2 l;100;8.00
-16;Food;Pate Sibiu;100;7.00
-17;Food;Pate Bucegi;100;7.30
-18;Cigarets;Parliament Blue;100;19.50
-19;Alcool;White Wine Cotnari 2 l;100;9.99
-20;Food;Stela Artois 330 ml;100;4.99
-21;Cigarets;Marlboro Gold;100;19.50
-22;Cigarets;Kent Classic;100;19.50
-23;Alcool;Vodka Saniuta 200 ml;100;9.05
-24;Food;Sunflower Oil Bunica 5 l;100;38.00
-25;Cigarets;Plugarul;100;14.50
+1;Alcohol;Bergembier 500ml;23;3.90
+2;Alcohol;J&B 700ml;12;78.35
+3;Alcohol;Jagermeister 700ml;7;80.50
+4;Alcohol;Neumarkt 1.5L;30;6.50
+5;Alcohol;Saniuta 200ml;43;15.00
+6;Alcohol;Timisoreana 2L;13;7.00
+7;Alcohol;Timisoreana 500ml;40;4.00
+8;Alcohol;Ursus 330ml;25;3.21
+9;Alcohol;Staropramen 500 ml;100;3.30
+10;Alcohol;Timisoreana 2 l;100;8.00
+11;Alcohol;Ursus 330 ml;100;3.21
+12;Alcohol;Vodka Saniuta 200 ml;100;9.05
+13;Alcohol;White Wine Babanu 2 l;100;12.50
+14;Alcohol;White Wine Cotnari 2 l;100;9.99
+15;Cigarettes;Dunhil Black;100;19.50
+16;Cigarettes;Dunhil Blue;100;19.50
+17;Cigarettes;Kent 8;100;19.50
+18;Cigarettes;Kent Classic;100;19.50
+19;Cigarettes;Marlboro Gold;100;19.50
+20;Cigarettes;Marlboro Red;100;19.50
+21;Cigarettes;Parliament Blue;100;19.50
+22;Cigarettes;Plugarul;100;14.50
+23;Cigarettes;Dunhill Blue;600;20.50
+24;Cigarettes;Kent 8;1000;21.00
+25;Cigarettes;Malboro Red;150;19.50
+26;Cigarettes;Pall Mall Blue;47;18.40
+27;Cigarettes;Plugaru;89;12.50
+28;Food;7 Days Chocolate;100;2.55
+29;Food;7 Days Chocolate;100;2.30
+30;Food;7 Days Vanila;100;2.30
+31;Food;7 Days Vanilla;100;2.55
+32;Food;Airways Extreme;350;1.99
+33;Food;Antefrig Pate;10;2.99
+34;Food;Bread;100;1.05
+35;Food;Bread;100;1.5
+36;Food;Chips Lays;100;4.30
+37;Food;Lotto Chesse;21;2.99
+38;Food;Maia biscuits;37;3.45
+39;Food;Milka Whole Nuts;55;3.50
+40;Food;Napoca Icecream 900ml;100;15.79
+41;Food;Nutline Seeds;30;3.90
+42;Food;Pate Bucegi;100;7.30
+43;Food;Pate Sibiu;100;7.00
+44;Food;Pop Corn Chio;100;4.30
+45;Food;Sandwich Ham&Cheese;100;6.00
+46;Food;Snickers;30;1.25
+47;Food;Snickers;100;1.25
+48;Food;Stela Artois 330 ml;100;4.99
+49;Food;Sunflower Oil Bunica 5 l;100;38.00
+50;Refreshments;Aqua Carpatica 500ml;24;2.5
+51;Refreshments;Coca Cola 2L;100;6.75
+52;Refreshments;Fanta Orange 2L;74;6.75
+53;Refreshments;Mirinda Orange 500ml;18;3.50
+54;Refreshments;Pepsi 500ml;45;3.50
+55;Refreshments;Teddi 330ml;100;5.50
